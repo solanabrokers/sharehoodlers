@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #080d0b;
+  --background: #0c0d08;
   --foreground: #f4f5f0;
-  --primary: #57e99c;
-  --primary-foreground: #10150a;
-  --muted-foreground: #92998e;
-  --accent: #20261b;
+  --primary: #cef307;
+  --primary-foreground: #14150a;
+  --muted-foreground: #98998e;
+  --accent: #24261b;
   --accent-foreground: #f4f5f0;
   --border: #ffffff14;
   --input: #ffffff26;
-  --ring: #57e99c;
+  --ring: #cef307;
   --radius: 0.5rem;
 }
 @theme inline {
@@ -65,28 +65,21 @@ button:focus-visible {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: #0b0e0bf0;
+  background: #0d0e0bf0;
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
 }
 .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 32px;
-  height: 34px;
-  font-size: 33px;
-  font-style: italic;
-  font-weight: 900;
-  line-height: 1;
-  background: var(--primary);
-  color: #10150a;
-  border-radius: 5px;
-  transform: rotate(-7deg);
+  display: block;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  object-fit: contain;
+  border-radius: 50%;
 }
 .brand-mark-small {
-  width: 27px;
-  height: 29px;
-  font-size: 28px;
+  width: 36px;
+  height: 36px;
 }
 .brand-word {
   font-size: 20px;
@@ -95,7 +88,7 @@ button:focus-visible {
 }
 .nav-link {
   font-size: 12px;
-  color: #b1b6ac;
+  color: #b5b6ac;
   transition: color 160ms;
 }
 .nav-link:hover {
@@ -104,7 +97,7 @@ button:focus-visible {
 .hero {
   position: relative;
   overflow: hidden;
-  background: #081d15;
+  background: #1a1d08;
 }
 .hero-image {
   object-fit: cover;
@@ -116,12 +109,12 @@ button:focus-visible {
   background:
     linear-gradient(
       90deg,
-      #090e0bf5 0%,
-      #090e0be0 23%,
-      #090e0b88 46%,
-      #090e0b05 75%
+      #0d0e09f5 0%,
+      #0d0e09e0 23%,
+      #0d0e0988 46%,
+      #0d0e0905 75%
     ),
-    linear-gradient(0deg, #090e0b 0%, transparent 30%, #00000020 100%);
+    linear-gradient(0deg, #0d0e09 0%, transparent 30%, #00000020 100%);
 }
 .eyebrow {
   display: flex;
@@ -140,7 +133,7 @@ button:focus-visible {
   flex-shrink: 0;
   border-radius: 100%;
   background: var(--primary);
-  box-shadow: 0 0 12px #baff4550;
+  box-shadow: 0 0 12px #cef30750;
 }
 .hero-title {
   max-width: 750px;
@@ -188,9 +181,9 @@ button:focus-visible {
 }
 .manifesto-strip {
   padding: 22px 0;
-  border-block: 1px solid #baff4528;
-  background: #11170d;
-  color: #c9d6b8;
+  border-block: 1px solid #cef30728;
+  background: #16170d;
+  color: #d2d6b8;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -244,9 +237,9 @@ button:focus-visible {
   align-items: center;
   gap: 14px;
   padding: 20px 24px;
-  border: 1px solid #baff4530;
+  border: 1px solid #cef30730;
   border-radius: 6px;
-  background: #151b12;
+  background: #1a1b12;
   font-size: 11px;
   line-height: 1.6;
   font-weight: 700;
@@ -269,7 +262,7 @@ button:focus-visible {
   color: var(--muted-foreground);
 }
 .collection-section {
-  background: #10130f;
+  background: #12130f;
   border-block: 1px solid var(--border);
 }
 .character-grid {
@@ -282,14 +275,14 @@ button:focus-visible {
   overflow: hidden;
   border: 1px solid #ffffff0f;
   border-radius: 9px;
-  background: #171b14;
+  background: #1a1b14;
   cursor: pointer;
   transition:
     border-color 200ms,
     transform 200ms;
 }
 .character-card:hover {
-  border-color: #baff4570;
+  border-color: #cef30770;
   transform: translateY(-4px);
 }
 .character-image {
@@ -321,7 +314,7 @@ button:focus-visible {
   width: 33px;
   height: 33px;
   border-radius: 50%;
-  background: #0b0e0bca;
+  background: #0d0e0bca;
   color: white;
   transition:
     background 200ms,
@@ -344,21 +337,21 @@ button:focus-visible {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 30px;
-  background: linear-gradient(130deg, #1c261333, #11150e66);
+  background: linear-gradient(130deg, #23261333, #14150e66);
 }
 .faq-section {
   border-block: 1px solid var(--border);
-  background: #10130f;
+  background: #12130f;
 }
 .join-panel {
   position: relative;
   isolation: isolate;
   overflow: hidden;
   border-radius: 12px;
-  border: 1px solid #baff4525;
+  border: 1px solid #cef30725;
   padding: 56px;
   background:
-    radial-gradient(ellipse at 90% 40%, #344e164d, transparent 70%), #131a10;
+    radial-gradient(ellipse at 90% 40%, #464e164d, transparent 70%), #191a10;
 }
 .join-art {
   position: absolute;
@@ -373,7 +366,7 @@ button:focus-visible {
   aspect-ratio: 1 / 1.25;
   border-radius: 10px;
   overflow: hidden;
-  border: 6px solid #263020;
+  border: 6px solid #2e3020;
   box-shadow: 0 10px 40px #0005;
 }
 .join-art > div:nth-child(1) {
@@ -399,7 +392,7 @@ button:focus-visible {
   z-index: 100;
   padding: 12px 20px;
   background: var(--primary);
-  color: #10150a;
+  color: #14150a;
   border-radius: 4px;
 }
 .skip-link:focus {
@@ -437,7 +430,7 @@ button:focus-visible {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg, #131a10 35%, transparent);
+    background: linear-gradient(90deg, #191a10 35%, transparent);
   }
   .character-grid {
     gap: 16px;
@@ -459,8 +452,8 @@ button:focus-visible {
   }
   .hero-shade {
     background:
-      linear-gradient(90deg, #090e0bea, #090e0b70),
-      linear-gradient(0deg, #090e0b, transparent 60%);
+      linear-gradient(90deg, #0d0e09ea, #0d0e0970),
+      linear-gradient(0deg, #0d0e09, transparent 60%);
   }
   .hero-coordinate {
     display: none;
@@ -575,25 +568,6 @@ h3 {
 .brand-word strong {
   font-weight: 700;
 }
-.brand-mark {
-  width: 24px;
-  height: 24px;
-  margin-right: 4px;
-  border: 2px solid var(--primary);
-  border-radius: 0;
-  background: transparent;
-  transform: rotate(45deg);
-  box-shadow: 0 0 16px #57e99c15;
-}
-.brand-mark > span {
-  width: 8px;
-  height: 8px;
-  background: var(--primary);
-}
-.brand-mark-small {
-  width: 20px;
-  height: 20px;
-}
 .nav-link {
   font-size: 10px;
   text-transform: uppercase;
@@ -615,8 +589,8 @@ h3 {
   font-weight: 700;
   letter-spacing: 1.2px;
   color: var(--primary);
-  border: 1px solid #57e99c35;
-  background: #0f2319c9;
+  border: 1px solid #cef30735;
+  background: #20230fc9;
 }
 .hero-stats {
   display: flex;
@@ -653,7 +627,7 @@ h3 {
   font-family: "DM Sans", sans-serif;
 }
 .ecosystem-section {
-  background: radial-gradient(ellipse at 90% 30%, #16492f25, transparent 65%);
+  background: radial-gradient(ellipse at 90% 30%, #41491625, transparent 65%);
 }
 .ecosystem-path {
   padding-left: 22px;
@@ -663,7 +637,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 22px;
-  border-left: 1px solid #57e99c40;
+  border-left: 1px solid #cef30740;
   border-bottom: 1px solid var(--border);
   min-height: 86px;
   padding: 20px 26px;
@@ -679,22 +653,22 @@ h3 {
   width: 7px;
   height: 7px;
   background: var(--primary);
-  box-shadow: 0 0 15px #57e99c60;
+  box-shadow: 0 0 15px #cef30760;
 }
 .flow-diagram {
   position: relative;
   width: 320px;
   height: 320px;
   margin: 30px auto;
-  border: 1px solid #57e99c35;
+  border: 1px solid #cef30735;
   border-radius: 50%;
-  background: radial-gradient(circle, #16492f44, transparent 70%);
+  background: radial-gradient(circle, #41491644, transparent 70%);
 }
 .flow-diagram:before {
   content: "";
   position: absolute;
   inset: 30px;
-  border: 1px dashed #57e99c25;
+  border: 1px dashed #cef30725;
   border-radius: 50%;
 }
 .flow-core {
@@ -722,8 +696,8 @@ h3 {
   gap: 7px;
   padding: 14px;
   min-width: 110px;
-  background: #0d1812;
-  border: 1px solid #57e99c35;
+  background: #16180d;
+  border: 1px solid #cef30735;
   font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -771,10 +745,10 @@ h3 {
   border-block: 1px solid var(--border);
 }
 .mint-panel {
-  border: 1px solid #57e99c45;
+  border: 1px solid #cef30745;
   padding: 36px;
   background:
-    radial-gradient(ellipse at 80% 10%, #153b273f, transparent 70%), #0b120e;
+    radial-gradient(ellipse at 80% 10%, #353b153f, transparent 70%), #11120b;
 }
 .mint-main {
   display: grid;

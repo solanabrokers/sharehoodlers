@@ -59,9 +59,14 @@ function Brand({ small = false }: { small?: boolean }) {
       aria-label="shareHOODlers home"
       className="inline-flex items-center gap-2.5"
     >
-      <span className={cn("brand-mark", small && "brand-mark-small")}>
-        <span />
-      </span>
+      <Image
+        src="/assets/sharehoodlers-logo.png"
+        alt=""
+        width={44}
+        height={44}
+        sizes={small ? "36px" : "44px"}
+        className={cn("brand-mark", small && "brand-mark-small")}
+      />
       <span className={cn("brand-word", small && "text-lg!")}>
         share<strong>HOOD</strong>lers<span className="text-primary">.</span>
       </span>

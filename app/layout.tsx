@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   ),
   title: "shareHOODlers — 3,333 Shares. One Collective.",
+  icons: { icon: "/assets/sharehoodlers-logo.png" },
   description:
     "Meet shareHOODlers: 3,333 anime-inspired digital share certificates on Robinhood Chain. Explore the collection, vision and free mint.",
   openGraph: {
