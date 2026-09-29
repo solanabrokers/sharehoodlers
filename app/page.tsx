@@ -1,4 +1,4 @@
-import Sharehoodlers from "@/components/sharehoodlers";
+import Hoodsters from "@/components/hoodsters";
 export default function Home() {
-  return <Sharehoodlers />;
+  return <Hoodsters />;
 }

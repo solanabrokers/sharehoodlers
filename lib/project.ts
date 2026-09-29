@@ -1,9 +1,9 @@
 // Launch content and outbound destinations supplied by the Lovable reference.
 // Update here when the project's launch details change.
 export const project = {
-  mintUrl: "https://opensea.io/collection/sharehoodler",
+  mintUrl: "https://opensea.io/collection/the-hoodsters",
   walletUrl: "https://opensea.io/account",
-  communityUrl: "https://x.com/search?q=shareHOODlers",
+  communityUrl: "https://x.com/search?q=The%20Hoodsters",
   mintDate: "SEPTEMBER 30",
   phases: [
     { name: "01 / GTD", time: "3:00–3:30 PM UTC" },
@@ -14,8 +14,8 @@ export const project = {
 export const faqs = [
   {
     id: "what",
-    q: "What is shareHOODlers?",
-    a: "shareHOODlers is a collection of 3,333 anime-inspired digital share certificates built around community, digital ownership and the HOOD culture.",
+    q: "What is The Hoodsters?",
+    a: "The Hoodsters is an NFT collection and collective of 3,333 anime-inspired NFTs built around community, digital ownership and the HOOD culture. Each individual NFT is a Hoodster.",
   },
   {
     id: "supply",
@@ -34,7 +34,7 @@ export const faqs = [
   },
   {
     id: "chain",
-    q: "What blockchain is shareHOODlers on?",
+    q: "What blockchain is The Hoodsters on?",
     a: "Robinhood Chain.",
   },
   {

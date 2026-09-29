@@ -23,7 +23,7 @@ export function EcosystemSections() {
               BUILT TO <span className="text-primary">GROW.</span>
             </h2>
             <p className="section-copy mt-6">
-              The collection is only the foundation. shareHOODlers is designed
+              The collection is only the foundation. The Hoodsters is designed
               to develop into a broader ecosystem of projects, collaborations,
               creative experiences and community initiatives.
             </p>
@@ -59,7 +59,7 @@ export function EcosystemSections() {
             </h2>
             <p className="section-copy mt-6">
               Secondary-market activity can generate creator royalties that
-              support the continued development of the shareHOODlers ecosystem.
+              support the continued development of The Hoodsters ecosystem.
             </p>
             <p className="section-copy mt-4">
               Our vision is to use project-generated royalties to support future
@@ -107,7 +107,7 @@ export function ProjectSection() {
           MORE THAN <span className="text-primary">A MINT.</span>
         </h2>
         <p className="section-copy mt-6 max-w-2xl">
-          The first 3,333 shareHOODlers establish the foundation. From there,
+          The first 3,333 Hoodsters establish the foundation. From there,
           the project can expand through new artwork, collaborations, digital
           experiences, community initiatives and future projects.
         </p>
@@ -154,7 +154,7 @@ export function ProjectSection() {
       <section className="chain-section">
         <Image
           src="/assets/scene-18.webp"
-          alt="The neon-lit home of the shareHOODlers"
+          alt="The neon-lit home of The Hoodsters"
           fill
           sizes="100vw"
           className="object-cover"
@@ -168,7 +168,7 @@ export function ProjectSection() {
             <span className="text-primary">ROBINHOOD CHAIN.</span>
           </h2>
           <p className="section-copy mt-6 max-w-lg">
-            shareHOODlers is built on Robinhood Chain, bringing the collection
+            The Hoodsters is built on Robinhood Chain, bringing the collection
             into an onchain environment designed around digital assets and
             ownership.
           </p>

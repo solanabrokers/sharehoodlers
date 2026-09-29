@@ -1,4 +1,4 @@
-# shareHOODlers
+# The Hoodsters
 
 Next.js App Router landing page based on the supplied Lovable preview, using the original character art, city scenes, and film. Built with TypeScript, Tailwind CSS 4, shadcn-style Radix components, and locally hosted DM Sans / Rajdhani fonts.
 
@@ -33,4 +33,4 @@ Playwright covers desktop/mobile layouts, collection filters, artwork previews, 
 - `public/assets/`: WebP copies of all 23 supplied images and the original MP4. The source files in the repository root remain unchanged.
 - `components/ui/`: editable Button, Dialog, and Accordion components; `components.json` configures shadcn.
 
-Set `NEXT_PUBLIC_SITE_URL` to the deployment origin for social preview URLs (see `.env.example`). The launch status is editorial content, not a live mint-status integration. Update it and the schedule when launch details change. The X link preserves the search destination supplied in the reference; replace it with the official profile when available.
+Set `NEXT_PUBLIC_SITE_URL` to the deployment origin for canonical and social preview URLs (see `.env.example`). The launch status is editorial content, not a live mint-status integration. Update it and the schedule when launch details change. The X link searches for The Hoodsters; replace it with the official profile when available.

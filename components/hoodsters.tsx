@@ -56,7 +56,7 @@ function Brand({ small = false }: { small?: boolean }) {
   return (
     <a
       href="#home"
-      aria-label="shareHOODlers home"
+      aria-label="The Hoodsters home"
       className="inline-flex items-center gap-2.5"
     >
       <Image
@@ -68,13 +68,13 @@ function Brand({ small = false }: { small?: boolean }) {
         className={cn("brand-mark", small && "brand-mark-small")}
       />
       <span className={cn("brand-word", small && "text-lg!")}>
-        share<strong>HOOD</strong>lers<span className="text-primary">.</span>
+        The <strong>Hoodsters</strong><span className="text-primary">.</span>
       </span>
     </a>
   );
 }
 
-export default function Sharehoodlers() {
+export default function Hoodsters() {
   const characterTrigger = useRef<HTMLButtonElement>(null);
   const filmTrigger = useRef<HTMLButtonElement>(null);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -153,7 +153,7 @@ export default function Sharehoodlers() {
         <section id="home" className="hero" aria-labelledby="hero-title">
           <Image
             src="/assets/scene-20.webp"
-            alt="Sharehoodlers characters overlooking a neon-green futuristic city"
+            alt="The Hoodsters characters overlooking a neon-green futuristic city"
             fill
             priority
             sizes="100vw"
@@ -178,7 +178,7 @@ export default function Sharehoodlers() {
               <span>ONE COLLECTIVE.</span>
             </h1>
             <p className="mt-7 max-w-[480px] text-base leading-7 text-white/65">
-              shareHOODlers is a community-driven collection of 3,333 digital
+              The Hoodsters is a community-driven collection of 3,333 digital
               share certificates built around ownership, culture and the HOOD.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -217,7 +217,7 @@ export default function Sharehoodlers() {
             </dl>
           </div>
           <div className="hero-coordinate">
-            <span className="text-primary">↗</span> THE SHAREHOODLERS UNIVERSE
+            <span className="text-primary">↗</span> THE HOODSTERS UNIVERSE
             <br />
             <span className="text-white/35">ANIME ART. ONCHAIN IDENTITY.</span>
           </div>
@@ -249,11 +249,11 @@ export default function Sharehoodlers() {
                 <h2 className="section-title mt-5">
                   MEET THE
                   <br />
-                  <span className="text-primary">SHAREHOLDERS.</span>
+                  <span className="text-primary">HOODSTERS.</span>
                 </h2>
               </div>
               <p className="max-w-[300px] text-sm leading-6 text-muted-foreground">
-                3,333 unique shareHOODlers. Different identities, styles, and
+                3,333 unique Hoodsters. Different identities, styles, and
                 personalities. One collective.
               </p>
             </div>
@@ -300,7 +300,7 @@ export default function Sharehoodlers() {
                   <div className="character-image">
                     <Image
                       src={characterImage(character.id)}
-                      alt={`${character.name}, an original Sharehoodlers character on a ${character.color.toLowerCase()} background`}
+                      alt={`${character.name}, an original Hoodster on a ${character.color.toLowerCase()} background`}
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -373,7 +373,7 @@ export default function Sharehoodlers() {
                 SHARE <span className="text-primary">REPRESENT?</span>
               </h2>
               <p className="section-copy mt-6">
-                A shareHOODler is more than a collectible.
+                A Hoodster is more than a collectible.
               </p>
               <p className="section-copy mt-3">
                 It represents your place inside a growing digital community
@@ -415,7 +415,7 @@ export default function Sharehoodlers() {
         <section className="world-section" aria-labelledby="world-title">
           <Image
             src="/assets/scene-23.webp"
-            alt="A luminous trading district in the Sharehoodlers universe"
+            alt="A luminous trading district in The Hoodsters universe"
             fill
             sizes="100vw"
             className="object-cover"
@@ -469,7 +469,7 @@ export default function Sharehoodlers() {
                 title: "The drop",
                 status: "THE FOUNDATION",
                 icon: Fingerprint,
-                text: "Launch 3,333 shareHOODlers. Establish the foundation of the collective.",
+                text: "Launch 3,333 Hoodsters. Establish the foundation of the collective.",
               },
               {
                 number: "02",
@@ -490,7 +490,7 @@ export default function Sharehoodlers() {
                 title: "The next chapter",
                 status: "THE FUTURE",
                 icon: Globe2,
-                text: "Explore future projects and opportunities created around the shareHOODlers ecosystem.",
+                text: "Explore future projects and opportunities created around The Hoodsters ecosystem.",
               },
             ].map((phase) => (
               <article key={phase.number} className="roadmap-card">
@@ -621,7 +621,7 @@ export default function Sharehoodlers() {
         </div>
         <div className="shell flex flex-wrap justify-between gap-3 border-t border-border py-5 text-[10px] text-muted-foreground">
           <span>
-            © {new Date().getFullYear()} Sharehoodlers. All rights reserved.
+            © {new Date().getFullYear()} The Hoodsters. All rights reserved.
           </span>
           <span className="font-mono tracking-wider">
             A SHARED VISION. AN ORIGINAL WORLD.
@@ -638,10 +638,10 @@ export default function Sharehoodlers() {
           className="max-w-5xl overflow-hidden p-0"
         >
           <DialogTitle className="sr-only">
-            Enter the Sharehoodlers world
+            Enter The Hoodsters world
           </DialogTitle>
           <DialogDescription className="sr-only">
-            An original animated film from the Sharehoodlers universe.
+            An original animated film from The Hoodsters universe.
           </DialogDescription>
           {filmOpen && (
             <video
@@ -706,7 +706,7 @@ export default function Sharehoodlers() {
                 <Button asChild variant="outline">
                   <a
                     href={characterImage(selected.id)}
-                    download={`sharehoodlers-${selected.name.toLowerCase().replaceAll(" ", "-")}.webp`}
+                    download={`hoodster-${selected.name.toLowerCase().replaceAll(" ", "-")}.webp`}
                   >
                     Download artwork <ArrowDownToLine />
                   </a>

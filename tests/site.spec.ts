@@ -16,7 +16,7 @@ test("launch content, assets, and external mint links work", async ({
     .all()) {
     await expect(link).toHaveAttribute(
       "href",
-      "https://opensea.io/collection/sharehoodler",
+      "https://opensea.io/collection/the-hoodsters",
     );
     await expect(link).toHaveAttribute("rel", "noopener noreferrer");
   }
@@ -60,7 +60,7 @@ test("collection filtering, modal navigation, and download", async ({
   await expect(dialog.getByRole("heading")).toHaveText("Night Shift");
   await expect(
     dialog.getByRole("link", { name: "Download artwork" }),
-  ).toHaveAttribute("download", "sharehoodlers-night-shift.webp");
+  ).toHaveAttribute("download", "hoodster-night-shift.webp");
   await dialog.getByRole("button", { name: "Next character" }).click();
   await expect(dialog.getByRole("heading")).toHaveText("Urban Nomad");
   await page.keyboard.press("Escape");
